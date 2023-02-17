@@ -42,7 +42,7 @@ m = solve(m);
 print_solution(m)
 
 %%
-clc
+%clc
 
 mysims = simulate(m,'simul_periods',1000,...
     'simul_honor_constraints',true);
